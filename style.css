@@ -5,19 +5,7 @@
     margin: 0;
 }
 
-html,body{
-    width: 95%;
-    margin: 50px auto;
-    background-image: url("images\1.png");
-    /*background: rgb(8, 129, 243);*/
-}
 
-@media (min-width: 768px){
-    html,body{
-        width: 80%;
-        margin: 50px auto;
-    }
-}
 .container {
     padding-left: 15px;
     padding-right: 15px;
@@ -43,8 +31,12 @@ html,body{
     }
   }
 h1 {
-    margin: 10px auto;
+    font-size: 40px;
+    width: 50%;
+    margin: 1px auto;
     text-transform: uppercase;
+    color: #12be1b;
+    margin-top: 50px;
 }
 
 h1 span{
@@ -52,7 +44,7 @@ h1 span{
 }
 
 hr{
-    margin: 10px 0px;
+    margin: 5px 2px;
 }
 
 .github-fork-ribbon:before{
@@ -67,17 +59,26 @@ hr{
     cursor:pointer;
     font-family: 'Poppins',sans-serif;
     width: 100%;
-    margin: 20px 0px;
+    margin: 0px 0px;
 }
 .upload-file{
-    border:2px dashed #eee;
-    color:#9b9b9b;
-    background-color: white;
+    border:1px dashed rgba(238, 238, 238, 0);
+    color:#000000;
+   /* background-image: url('images/4.png');*/
+
+    background-color: rgba(134, 224, 134, 0.329);
     width:100%;
     height:250px;
-    border-radius: 8px;
-    font-size:15px;
+    border-radius: 50px;
+    font-size:16px;
     cursor: pointer;
+}
+input{
+    color: #eb0505;
+    font-size: 15px;
+}
+.play{
+    color: #003504;
 }
 .upload-btn-wrapper input[type=file]{
     width:100%;
@@ -164,7 +165,16 @@ img{
     justify-content: center;
     margin-top: 25px;
 }
-
+textarea{
+    font-size: 20px;
+    border: #fafafa00;
+    background: #e3e8ec00;
+    min-width: 100%;
+    max-width: 100%;
+    resize: none;
+    min-height: 30pc;
+    line-clamp:inherit;
+}
 
 .progress {
 width: 130px;
@@ -178,8 +188,10 @@ justify-content: center;
 
 .progress > .inner {
 position: absolute;
-color: limegreen; 
-border: 1px solid #9b9b9b;
+color: rgb(0, 0, 0); 
+font-size: 20px;
+border: 1px solid #ffffff;
+background: #fafafa;
 }
 
 .progress > svg {
