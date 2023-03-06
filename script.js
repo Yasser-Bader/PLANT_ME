@@ -304,9 +304,9 @@ $("textarea").each(function () {
                         <h3>أمثلة للصور المطلوبة:</h3>
                         <section class="steps section container">
                         <div class="steps__bg">
-                            <h2 class="section__title-center steps__title">
-                                Steps to start your <br> plants off right
-                            </h2>
+                            <h3 class="section__title-center steps__title">
+                                أمثلة للصور المطلوبة:
+                            </h3>
         
                             <div class="steps__container grid">
                                 <div class="steps__card">
