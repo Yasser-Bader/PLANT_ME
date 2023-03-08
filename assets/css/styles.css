@@ -104,7 +104,10 @@ ul{
 a{
   text-decoration: none;
 }
-
+.oo{
+  max-width: 50%;
+  height: auto;
+}
 img{
   max-width: 100%;
   height: auto;
@@ -221,7 +224,7 @@ the website, in dark theme
 }
 
 .nav__logo-icon{
-  font-size: 1.15rem;
+  font-size: 2.15rem;
   color: var(--first-color);
 }
 
